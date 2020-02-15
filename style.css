@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+    background: #232323;
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	body{
+      width: 500px;
+    }
+    h1{
+        padding: 30px;
+    }
+    span{
+        padding: 5px;
+    }
+    #container{
+        padding: 30px;
+    }
+}
+#container{
+    max-width: 600px;
+    margin: 30px auto;
+}
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%; 
+    border-radius: 15%;
+    transition: background 0.8s;
+    -webkit-transition: background 0.8s;
+    -moz-transition: background 0.8s;
+}
+h1{
+    color: white;
+    text-align: center;
+    background: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+#colorDisplay{
+    font-size: 200%;
+
+}
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+.selected{
+    background: steelblue;
+    color: white;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: none;
+}
+button:hover{
+    background: steelblue;
+    color: white;
+}
+#message{
+    display: inline-block;
+    width: 20%; 
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: steelblue;
+    font-size: inherit;
+}
+.animated{
+    transition-property: transform, border-radius, background;
+    transition-duration: 2s;
+    transform: scale(0.1), rotate(50deg);
+    border-radius: 100px;
+}
+
+#footer-bottom{
+    margin-top: 500px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+#footer-bottom p{
+    font: 300 15px 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #34495e;
+}
+#footer-bottom img{
+    width: 200px;
+    height: 30px;
+}
